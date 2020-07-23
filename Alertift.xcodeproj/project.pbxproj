@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D13C7721EB064EF007BBB43 /* Alertift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D13C7701EB064EF007BBB43 /* Alertift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D13C7B11EB22B8F007BBB43 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13C7AB1EB22B8F007BBB43 /* Action.swift */; };
 		4D13C7B21EB22B8F007BBB43 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13C7AC1EB22B8F007BBB43 /* ActionSheet.swift */; };
 		4D13C7B31EB22B8F007BBB43 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13C7AD1EB22B8F007BBB43 /* Alert.swift */; };
@@ -20,8 +19,6 @@
 
 /* Begin PBXFileReference section */
 		4D13C76D1EB064EF007BBB43 /* Alertift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alertift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D13C7701EB064EF007BBB43 /* Alertift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alertift.h; sourceTree = "<group>"; };
-		4D13C7711EB064EF007BBB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D13C7AB1EB22B8F007BBB43 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		4D13C7AC1EB22B8F007BBB43 /* ActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
 		4D13C7AD1EB22B8F007BBB43 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -47,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				4D13C7AA1EB22B8E007BBB43 /* Sources */,
-				4D13C76F1EB064EF007BBB43 /* Alertift */,
 				4D13C76E1EB064EF007BBB43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,15 +54,6 @@
 				4D13C76D1EB064EF007BBB43 /* Alertift.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4D13C76F1EB064EF007BBB43 /* Alertift */ = {
-			isa = PBXGroup;
-			children = (
-				4D13C7701EB064EF007BBB43 /* Alertift.h */,
-				4D13C7711EB064EF007BBB43 /* Info.plist */,
-			);
-			path = Alertift;
 			sourceTree = "<group>";
 		};
 		4D13C7AA1EB22B8E007BBB43 /* Sources */ = {
@@ -91,7 +78,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D13C7721EB064EF007BBB43 /* Alertift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
